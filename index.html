@@ -154,34 +154,18 @@
 	}
 	
 	#header{
-		background: url('https://images.unsplash.com/photo-1452798991096-382940996d40?dpr=1&auto=format&fit=crop&w=1500&h=999&q=80&cs=tinysrgb&crop=&bg=');
-		background-size: cover;
-		background-position: center center;
+		position:relative
 	}
 	
-	/*
-	sizes="(max-width: 1500px) 100vw, 1500px"
-srcset="
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg 190w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_360.jpg 360w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_488.jpg 488w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_598.jpg 598w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_692.jpg 692w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_788.jpg 788w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_879.jpg 879w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_959.jpg 959w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1039.jpg 1039w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1122.jpg 1122w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1187.jpg 1187w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1266.jpg 1266w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1341.jpg 1341w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1415.jpg 1415w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1482.jpg 1482w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1499.jpg 1499w,
-photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
-src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
-alt=""
-	*/
+	#bg{ 
+		min-height: 100%;
+		min-width: 1024px;
+		width: 100%;
+		height: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 	
 	@media (max-width:700px){
 		.mw48{
@@ -212,9 +196,27 @@ alt=""
 </head>
 <body>
 	<div class="df pbt20" id="header">
-		<div>
-			<img src="">
-		</div>
+		<img sizes="(max-width: 1500px) 100vw, 1500px"
+srcset="
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg 190w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_360.jpg 360w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_488.jpg 488w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_598.jpg 598w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_692.jpg 692w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_788.jpg 788w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_879.jpg 879w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_959.jpg 959w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1039.jpg 1039w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1122.jpg 1122w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1187.jpg 1187w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1266.jpg 1266w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1341.jpg 1341w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1415.jpg 1415w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1482.jpg 1482w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1499.jpg 1499w,
+photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
+src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
+alt="" id="bg">
 		<div class="p10 mw mw48 bgcf9">
 			<h1 class="fs24 fw600"><div class="cb">Hallo 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
 		</div>
@@ -246,7 +248,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 		<h2 class="p10 fs18 cb fw600 mw mw48">Projekte</h2>
 		<div class="df jcsb fww">
 			<div class="tthird">
-				<img sizes="(max-width: 1383px) 100vw, 1383px"
+				<img sizes="(max-width: 700px) 100vw, 67vw"
 srcset="
 haberkorn_tiq5yv_c_scale,w_190.jpg 190w,
 haberkorn_tiq5yv_c_scale,w_393.jpg 393w,
@@ -276,7 +278,7 @@ alt="">
 			</div>
 			<div class="df fww">
 				<div class="fo2 tthird">
-					<img sizes="(max-width: 1630px) 100vw, 1630px"
+					<img sizes="(max-width: 700px) 100vw, 67vw"
 srcset="
 ecaffe_laxizt_c_scale,w_190.jpg 190w,
 ecaffe_laxizt_c_scale,w_486.jpg 486w,
@@ -305,7 +307,7 @@ alt="">
 			</div>
 			<div class="df fww">
 				<div class="tthird">
-					<img sizes="(max-width: 1630px) 100vw, 1630px"
+					<img sizes="(max-width: 700px) 100vw, 67vw"
 srcset="
 myrobotcenter_jnv8fb_c_scale,w_190.jpg 190w,
 myrobotcenter_jnv8fb_c_scale,w_439.jpg 439w,
