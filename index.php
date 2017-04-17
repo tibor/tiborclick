@@ -2,9 +2,9 @@
 <html lang="de">
 <head>
 	<meta charset="utf-8"/>
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+	<?php include_once("https://fonts.googleapis.com/css?family=Work+Sans:400,600");?>
 	*{
 		padding: 0;
 		margin: 0;
@@ -152,7 +152,7 @@
 	}
 	
 	.bgcf9{
-		background-color:#fff9
+		background-color: hsla(255, 0%, 100%, 0.9)
 	}
 	
 	.cb{
