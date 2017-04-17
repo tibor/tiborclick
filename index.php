@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tibor Martini | Projektmanager</title>
 <style>
 	<?php include_once("https://fonts.googleapis.com/css?family=Work+Sans:400,600");?>
 	*{
@@ -140,7 +141,7 @@
 	}
 
 	.bs{
-		box-shadow: 0 0.125rem 0.5rem -0.2rem #000
+		box-shadow: 0 0.25rem 0.5rem -0.2rem #000
 	}
 	
 	.bgcf{
