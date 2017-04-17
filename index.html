@@ -56,6 +56,10 @@
 		width: calc(100% / 3 - 1rem)
 	}
 	
+	.tthird{
+		width: calc(200% / 3)
+	}
+	
 	.mw{
 		margin-left: auto;
 		margin-right: auto;
@@ -146,6 +150,12 @@
 		background-size: cover;
 		background-position: center center;
 	}
+	
+	@media (max-width:30em){
+		.third, .tthird{
+			width: 100%
+		}
+	}
 </style>
 </head>
 <body>
@@ -199,7 +209,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 			</div>
 			</div>
 			<div class="df fww">
-				<div class="fo2">
+				<div class="fo2 tthird">
 					<img src="ecaffe.jpg">
 				</div>
 				<div class="third p10 fo1">
@@ -216,7 +226,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 				</div>
 			</div>
 			<div class="df fww">
-				<div>
+				<div class="tthird">
 					<img src="myrobotcenter.jpg">
 				</div>
 			<div class="third p10">
