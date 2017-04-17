@@ -140,7 +140,7 @@
 	}
 
 	.bs{
-		box-shadow: 0 0 0.5rem -0.2rem #000
+		box-shadow: 0 0.125rem 0.5rem -0.2rem #000
 	}
 	
 	.bgcf{
