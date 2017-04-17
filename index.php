@@ -160,7 +160,10 @@
 	}
 	
 	#header{
-		position:relative
+		position:relative;
+		max-width: 100%;
+		max-width: 100vw;
+		overflow: hidden
 	}
 	
 	#bg{ 
