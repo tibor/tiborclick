@@ -233,7 +233,7 @@ alt="" id="bg">
 	</div>
 	<div class="bgcg pb10 pbt20">
 		<div class="mw mw48 oxs">
-		<h2 class="p10 fs18 cb fw600">Prinzipien</h2>
+		<h2 class="p10 fs18 cb fw600 mb05">Prinzipien</h2>
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125">
 				<h3 class="mb05 fw600">Navigation</h3>
@@ -255,8 +255,8 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 	</div>
 	<div>
 		<div class="pb10 pbt20">
-		<h2 class="p10 fs18 cb fw600 mw mw48">Projekte</h2>
-		<div class="df jcsb fww">
+		<h2 class="p10 fs18 cb fw600 mw mw48 mb05">Projekte</h2>
+		<div class="df jcsb fww mb10">
 			<div class="tthird">
 				<img sizes="(max-width: 700px) 100vw, 67vw"
 srcset="
@@ -286,7 +286,7 @@ alt="">
 				</ul>
 			</div>
 			</div>
-			<div class="df fww">
+			<div class="df fww mb10">
 				<div class="fo2 tthird">
 					<img sizes="(max-width: 700px) 100vw, 67vw"
 srcset="
