@@ -288,7 +288,7 @@ alt="" id="bg">
 	</div>
 	<div class="bgcg pb10 pbt20">
 		<div class="mw mw48">
-		<h2 class="p10 fs18 fw600 mb05">Prinzipien</h2>
+			<h2 class="p10 fs18 fw600 mb05"><span class="cf">Prinzipien</span></h2>
 			<div class="oxs">
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125">
