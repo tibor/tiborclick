@@ -191,8 +191,27 @@
 		-webkit-text-fill-color: transparent;
 	}
 	
+	.cbu{
+		position:relative;
+		display:inline-block;
+	}
+	
+	.cbu::after{
+		content: "";
+		display: inline-block;
+		width: 100%;
+		height: 0.25rem;
+		background: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
+		position: absolute;
+		bottom: -0.25rem;
+		left: 0;
+		z-index: -7;
+		opacity: 0.6;
+	}
+	
 	.cf{
 		color: #fff;
+		box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4)
 	}
 	
 	#header{
@@ -293,7 +312,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 	</div>
 	<div>
 		<div class="pb10 pbt20">
-			<h2 class="p10 fs18 fw600 mw mw48 mb05"><span class="cb">Projekte</span></h2>
+			<h2 class="p10 fs18 fw600 mw mw48 mb05"><span class="cb cbu">Projekte</span></h2>
 		<div class="df jcsb fww mb10">
 			<div class="tthird">
 				<img sizes="(max-width: 700px) 100vw, 67vw"
