@@ -177,7 +177,7 @@
 	}
 	
 	.bgcg{
-		background-color: darkgrey
+		background: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 	}
 	
 	.bgcf9{
@@ -186,6 +186,10 @@
 	
 	.cb{
 		color: #18a8d8
+	}
+	
+	.cf{
+		color: #fff;
 	}
 	
 	#header{
@@ -262,7 +266,7 @@ alt="" id="bg">
 	</div>
 	<div class="bgcg pb10 pbt20">
 		<div class="mw mw48 oxs">
-		<h2 class="p10 fs18 cb fw600 mb05">Prinzipien</h2>
+		<h2 class="p10 fs18 fw600 mb05">Prinzipien</h2>
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125">
 				<h3 class="mb05 fw600">Navigation</h3>
@@ -374,7 +378,7 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 	</div>
 	<div class="bgcg">
 		<div class="fs24 mw mw48 fw600 pbt20 p10">
-			<p>Ich freue mich auf Kontakt per <a href="mailto:">E-Mail 📮</a>, <a href="https://twitter.com/tibor">Twitter 🐣</a> oder <a href="https://instagram.com/tibormartini">Instagram 📸</a>.</p>
+			<p>Ich freue mich auf Kontakt per <a href="mailto:" class="cf">E-Mail 📮</a>, <a href="https://twitter.com/tibor" class="cf">Twitter 🐣</a> oder <a href="https://instagram.com/tibormartini" class="cf">Instagram 📸</a>.</p>
 			<p class="cb">Bis bald.</p>
 		</div>
 	</div>
