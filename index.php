@@ -114,7 +114,8 @@
 	}
 	
 	.oxs{
-		overflow-x: scroll
+		overflow-x: scroll;
+		-webkit-overflow-scrolling:touch
 	}
 	
 	.mb05{
