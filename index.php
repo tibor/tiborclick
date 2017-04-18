@@ -268,8 +268,9 @@ alt="" id="bg">
 		</div>
 	</div>
 	<div class="bgcg pb10 pbt20">
-		<div class="mw mw48 oxs">
+		<div class="mw mw48">
 		<h2 class="p10 fs18 fw600 mb05">Prinzipien</h2>
+			<div class="oxs">
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125">
 				<h3 class="mb05 fw600">Navigation</h3>
@@ -287,6 +288,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 					Eine Website sollte daher die Daten so sparsam und so gut komprimiert wie möglich einsetzen.</p>
 			</div>
 		</div>
+			</div>
 		</div>
 	</div>
 	<div>
