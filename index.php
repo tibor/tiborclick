@@ -212,7 +212,9 @@
 	
 	.cf{
 		color: #fff;
-		box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4)
+		box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4);
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	
 	#header{
