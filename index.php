@@ -185,7 +185,10 @@
 	}
 	
 	.cb{
-		color: #18a8d8
+		color: #18a8d8;
+		background-image: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 	
 	.cf{
@@ -261,7 +264,7 @@ photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
 src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
 alt="" id="bg">
 		<div class="p10 mw mw48 bgcf9">
-			<h1 class="fs24 fw600"><div class="cb">Hallo 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
+			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
 		</div>
 	</div>
 	<div class="bgcg pb10 pbt20">
