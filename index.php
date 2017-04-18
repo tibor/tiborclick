@@ -293,7 +293,7 @@ Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe 
 	</div>
 	<div>
 		<div class="pb10 pbt20">
-		<h2 class="p10 fs18 cb fw600 mw mw48 mb05">Projekte</h2>
+			<h2 class="p10 fs18 fw600 mw mw48 mb05"><span class="cb">Projekte</span></h2>
 		<div class="df jcsb fww mb10">
 			<div class="tthird">
 				<img sizes="(max-width: 700px) 100vw, 67vw"
