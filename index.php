@@ -81,7 +81,9 @@
 	}
 	
 	.tthird{
-		width: calc(200% / 3)
+		width: calc(200% / 3);
+		height: 0;
+		padding-bottom: 50vw;
 	}
 	
 	.mw{
@@ -227,6 +229,9 @@
 		
 		.third, .tthird{
 			width: 100%
+		}
+		.tthird{
+			padding-bottom: 75vw
 		}
 		.fo1, .fo2{
 			order: initial
