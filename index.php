@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php header(Link: </https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2>; rel=preload; as=font; crossorigin, false); ?>
 <html lang="de">
 <head>
 	<meta charset="utf-8"/>
