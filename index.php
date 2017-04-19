@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php header("Link: </https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2>; rel=preload; as=font; crossorigin", false); ?>
+<?php header("Link: </fonts/worksans-semibold.woff2>; rel=preload; as=font; crossorigin", false); ?>
 <html lang="de">
 <head>
 	<meta charset="utf-8"/>
@@ -10,29 +10,13 @@
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/WB2LNay3rHMH1zU8UJnUHIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v2/ElUAY9q6T0Ayx4zWzW63VJBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(/fonts/worksans-regular.woff2) format('woff2'), url(/fonts/worksans-regular.woff) format('woff'), url(/fonts/worksans-regular.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Work Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v2/z9rX03Xuz9ZNHTMg1_ghGRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(/fonts/worksans-semibold.woff2) format('woff2'), url(/fonts/worksans-semibold.woff) format('woff'), url(/fonts/worksans-semibold.ttf) format('truetype');
 }
 	
 	*{
