@@ -279,17 +279,17 @@ alt="" id="bg">
 			<h2 class="p10 fs18 fw600 mb05"><span class="cf">Prinzipien</span></h2>
 			<div class="oxs">
 		<div class="df jcsb w48">
-			<div class="bgcf bs p10 third-1 br0125">
+			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Navigation</h3>
 				<p>Mobile Nutzer sollten einfach und schnell auf Websites navigieren können.<br>
 Das Navigationsmenü ist daher nicht hinter einem ≡-Menü versteckt, sondern daumenfreundlich in Tabs am unteren Bildschirmrand angeordnet.</p>
 			</div>
-			<div class="bgcf bs p10 third-1 br0125">
+			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Suche</h3>
 				<p>Mobile Nutzer wollen nicht viel navigieren, sondern am liebsten direkt zum Ziel gelangen.<br>
 Der einfachste Weg dafür ist eine gut erreichbare Suche, die passende Begriffe vorschlägt und die Ergebnisse sinnvoll sortiert.</p>
 			</div>
-			<div class="bgcf bs p10 third-1 br0125">
+			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Performance</h3>
 				<p>Mobile Endgeräte haben weniger Rechenpower als Desktop-Rechner und sind seltener in schnellen WLAN- oder LAN-Netzen eingeloggt.<br>
 					Eine Website sollte daher die Daten so sparsam und so gut komprimiert wie möglich einsetzen.</p>
