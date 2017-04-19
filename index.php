@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php header("Link: </fonts/worksans-semibold.woff2>; rel=preload; as=font; crossorigin", false); ?>
+<?php header("Link: </fonts/worksans-semibold.woff2>; rel=preload; as=font; crossorigin, </fonts/worksans-regular.woff2>; rel=preload; as=font; crossorigin", false); ?>
 <html lang="de">
 <head>
 	<meta charset="utf-8"/>
