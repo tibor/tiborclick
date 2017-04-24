@@ -447,9 +447,17 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 		</div>
 	</div>
 	<script>
-		document.getElementById('bg').onload=function(){
-			this.classList.remove('o0');
+		document.addEventListener('DOMContentLoaded',
+					  function(){
+			var img=document.getElementById('bg');
+			img.setAttribute('src')=img.getAttribute('data-src');
+			img.setAttribute('srcset')=img.getAttribute('data-srcset')
+			img.onload=function(){
+				this.classList.remove('o0');				
+			}
 		}
+					 )
+		
 		var htmlClass=document.getElementsByTagName('html')[0].classList;
 		var e=document.createElement("style");
 		e.textContent="@font-face { font-display: swap; }";
