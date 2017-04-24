@@ -225,10 +225,8 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 	
-	.blur{
-		-moz-filter: blur(1rem);
-		-webkit-filter: blur(1rem);
-		filter: blur(1rem);
+	.o0{
+		opacity: 0;
 	}
 	
 	#header{
@@ -236,6 +234,21 @@
 		max-width: 100%;
 		max-width: 100vw;
 		overflow: hidden
+	}
+	
+	#header::before{
+		background-image: url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg), linear-gradient(to right,#433231, #64d5e6, #178698);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: absolute;
+		z-index: -1;
+		content: "";
+		width: 100%;
+		height: 100%;
+		top: 0;
+		filter: blur(1rem);
+		left: 0;
+		transform: scale(1.1);
 	}
 	
 	#bg{ 
@@ -247,13 +260,11 @@
 		top: 0;
 		left: 0;
 		z-index:-1;
-		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg), linear-gradient(to right,#433231, #64d5e6, #178698);
-		background-size:cover;
-		background-repeat:no-repeat;
-		will-change: filter;
-		-moz-transition: filter 0.2s ease-in-out
-		-webkit-transition: filter 0.2s ease-in-out;
-		transition: filter 0.2s ease-in-out
+		opacity: 1;
+		will-change: opacity;
+		-moz-transition: opacity 0.2s ease-in-out
+		-webkit-transition: opacity 0.2s ease-in-out;
+		transition: opacity 0.2s ease-in-out
 	}
 	
 	@media (max-width:700px){
@@ -435,7 +446,7 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 	</div>
 	<script>
 		document.getElementById('bg').onload=function(){
-			this.classList.remove('blur');
+			this.classList.remove('o0');
 		}
 		var htmlClass=document.getElementsByTagName('html')[0].classList;
 		var e=document.createElement("style");
