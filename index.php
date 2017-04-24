@@ -430,7 +430,7 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 	<div class="bgcg">
 		<div class="fs24 mw mw48 fw600 pbt20 p10">
 			<p>Ich freue mich auf Kontakt per <a href="mailto:" class="cf">E-Mail 📮</a>, <a href="https://twitter.com/tibor" class="cf">Twitter 🐣</a> oder <a href="https://instagram.com/tibormartini" class="cf">Instagram 📸</a>.</p>
-			<p class="cb">Bis bald.</p>
+			<p>Bis bald.</p>
 		</div>
 	</div>
 	<script>
