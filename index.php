@@ -24,6 +24,7 @@
 	*{
 		padding: 0;
 		margin: 0;
+		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
@@ -63,10 +64,12 @@
 	}
 
 	.df{
+		display: -webkit-flex;
 		display: flex
 	}
 	
 	.jcsb{
+		justify-content:-webkit-justify-content:
 		justify-content: space-between
 	}
 	
@@ -79,6 +82,7 @@
 	}
 	
 	.fww{
+		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap
 	}
 	
@@ -112,7 +116,7 @@
 	
 	.oxs{
 		overflow-x: scroll;
-		-webkit-overflow-scrolling:touch
+		-webkit-overflow-scrolling: touch
 	}
 	
 	.mb05{
@@ -164,7 +168,9 @@
 	}
 
 	.bs{
-		box-shadow: 0 0.25rem 0.5rem -0.2rem #000
+		-moz-box-shadow: 0 0.25rem 0.5rem -0.2rem hsla(237, 11%, 11%, 0.4);
+		-webkit-box-shadow: 0 0.25rem 0.5rem -0.2rem hsla(237, 11%, 11%, 0.4);
+		box-shadow: 0 0.25rem 0.5rem -0.2rem hsla(237, 11%, 11%, 0.4)
 	}
 	
 	.bgcf{
@@ -172,6 +178,8 @@
 	}
 	
 	.bgcg{
+		background: -moz-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
+		background: -webkit-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 		background: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 	}
 	
@@ -181,6 +189,8 @@
 	
 	.cb{
 		color: #18a8d8;
+		background-image: -moz-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
+		background-image: -webkit-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 		background-image: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -196,6 +206,8 @@
 		display: inline-block;
 		width: 100%;
 		height: 0.25rem;
+		background: -moz-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
+		background: -webkit-linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 		background: linear-gradient(35deg,hsl(195, 80%, 47%),hsl(285, 80%, 47%));
 		position: absolute;
 		bottom: -0.25rem;
@@ -206,13 +218,17 @@
 	
 	.cf{
 		color: #fff;
+		-moz-box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4);
+		-webkit-box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4);
 		box-shadow: inset 0 -0.25rem hsla(0,0%,100%,0.4);
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
 	
 	.blur{
-		filter:blur(1rem);
+		-moz-filter: blur(1rem);
+		-webkit-filter: blur(1rem);
+		filter: blur(1rem);
 	}
 	
 	#header{
@@ -234,6 +250,9 @@
 		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg), linear-gradient(to right,#433231, #64d5e6, #178698);
 		background-size:cover;
 		background-repeat:no-repeat;
+		will-change: filter;
+		-moz-transition: filter 0.2s ease-in-out
+		-webkit-transition: filter 0.2s ease-in-out;
 		transition: filter 0.2s ease-in-out
 	}
 	
