@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php header("Link: </fonts/worksans-semibold.woff2>; rel=preload; as=font; crossorigin, </fonts/worksans-regular.woff2>; rel=preload; as=font; crossorigin", false); ?>
+<?php header("Link: </fonts/worksans-semibold.woff2>; rel=preload; as=font; crossorigin, </fonts/worksans-regular.woff2>; rel=preload; as=font; crossorigin, </photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg>; rel=preload; as=image", false); ?>
 <html lang="de">
 <head>
 	<meta charset="utf-8"/>
@@ -204,6 +204,10 @@
 		-moz-osx-font-smoothing: grayscale;
 	}
 	
+	.blur{
+		filter:blur(1rem);
+	}
+	
 	#header{
 		position:relative;
 		max-width: 100%;
@@ -220,8 +224,9 @@
 		top: 0;
 		left: 0;
 		z-index:-1;
-		background-image:url(photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg);
+		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg);
 		background-size:cover;
+		background-repeat:no-repeat;
 	}
 	
 	@media (max-width:700px){
@@ -276,7 +281,7 @@ photo-1452798991096-382940996d40_rknhtf_c_scale,w_1482.jpg 1482w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1499.jpg 1499w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
 src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
-alt="" id="bg">
+alt="" id="bg" class="blur" onload=function(){this.classList.remove('blur')}>
 		<div class="p10 mw mw48 bgcf9">
 			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
 		</div>
