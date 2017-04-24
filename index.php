@@ -219,7 +219,9 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		z-index:-1
+		z-index:-1;
+		background-image:url(photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg);
+		background-size:cover;
 	}
 	
 	@media (max-width:700px){
