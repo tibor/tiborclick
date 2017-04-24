@@ -69,7 +69,7 @@
 	}
 	
 	.jcsb{
-		justify-content:-webkit-justify-content:
+		justify-content:-webkit-justify-content;
 		justify-content: space-between
 	}
 	
