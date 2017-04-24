@@ -291,7 +291,7 @@ photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
 src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
 alt="" id="bg" class="blur">
 		<div class="p10 mw mw48 bgcf9">
-			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
+			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projekt&shy;manager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
 		</div>
 	</div>
 	<div class="bgcg pb10 pbt20">
@@ -302,7 +302,7 @@ alt="" id="bg" class="blur">
 			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Navigation</h3>
 				<p>Mobile Nutzer sollten einfach und schnell auf Websites navigieren können.<br>
-Das Navigationsmenü ist daher nicht hinter einem ≡-Menü versteckt, sondern daumenfreundlich in Tabs am unteren Bildschirmrand angeordnet.</p>
+Das Navigations&shy;menü ist daher nicht hinter einem ≡-Menü versteckt, sondern daumenfreundlich in Tabs am unteren Bildschirm&shy;rand angeordnet.</p>
 			</div>
 			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Suche</h3>
