@@ -224,7 +224,7 @@
 		top: 0;
 		left: 0;
 		z-index:-1;
-		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg);
+		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg), linear-gradient(to right,#433231, #64d5e6, #178698);
 		background-size:cover;
 		background-repeat:no-repeat;
 		transition: filter 0.2s ease-in-out
