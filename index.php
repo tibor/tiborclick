@@ -302,7 +302,7 @@
 <body>
 	<div class="df pbt20" id="header">
 		<img sizes="100vw"
-srcset="
+data-srcset="
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg 190w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_360.jpg 360w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_488.jpg 488w,
@@ -320,7 +320,7 @@ photo-1452798991096-382940996d40_rknhtf_c_scale,w_1415.jpg 1415w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1482.jpg 1482w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1499.jpg 1499w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
-src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
+data-src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
 alt="" id="bg" class="o0">
 		<div class="p10 mw mw48 bgcf9">
 			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projekt&shy;manager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
