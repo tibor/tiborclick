@@ -281,7 +281,7 @@ photo-1452798991096-382940996d40_rknhtf_c_scale,w_1482.jpg 1482w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1499.jpg 1499w,
 photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg 1500w"
 src="photo-1452798991096-382940996d40_rknhtf_c_scale,w_1500.jpg"
-alt="" id="bg" class="blur" onload="function(){this.classList.remove('blur')"}>
+alt="" id="bg" class="blur">
 		<div class="p10 mw mw48 bgcf9">
 			<h1 class="fs24 fw600"><div><span class="cb">Hallo</span> 👋</div>Ich bin Tibor, ein Projektmanager mit Fokus auf Mobile UX 📲 und Performance⚡️.</h1>
 		</div>
@@ -406,5 +406,8 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 			<p class="cb">Bis bald.</p>
 		</div>
 	</div>
+	<script>
+		document.getElementById('bg').onload.classList.remove('blur');
+	</script>
 </body>
 </html>
