@@ -246,8 +246,11 @@
 		width: 100%;
 		height: 100%;
 		top: 0;
-		filter: blur(1rem);
+		-webkit-filter: blur(0.4rem);
+		filter: blur(0.4rem);
 		left: 0;
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
 	}
 	
