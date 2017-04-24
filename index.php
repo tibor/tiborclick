@@ -260,7 +260,6 @@
 		top: 0;
 		left: 0;
 		z-index:-1;
-		opacity: 1;
 		will-change: opacity;
 		-moz-transition: opacity 0.2s ease-in-out
 		-webkit-transition: opacity 0.2s ease-in-out;
