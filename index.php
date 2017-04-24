@@ -11,12 +11,14 @@
   font-style: normal;
   font-weight: 400;
   src: local('Work Sans'), local('WorkSans-Regular'), url(/fonts/worksans-regular.woff2) format('woff2'), url(/fonts/worksans-regular.woff) format('woff'), url(/fonts/worksans-regular.ttf) format('truetype');
+	font-display: swap;
 }
 @font-face {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
   src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(/fonts/worksans-semibold.woff2) format('woff2'), url(/fonts/worksans-semibold.woff) format('woff'), url(/fonts/worksans-semibold.ttf) format('truetype');
+	font-display: swap;
 }
 	
 	*{
@@ -26,13 +28,21 @@
 	}
 
 	html{
-		font-family: Work Sans;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 		font-weight:400;
 		line-height: 1.2;
 		font-size: 125%
 	}
 	
+	html.WSr{
+		font-family: Work Sans;
+	}
+	
 	h1, h2, h3, h4{
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+	
+	.WSb h1, .WSb h2, .WSb h3, .WSb h4{
 		font-family: Work Sans
 	}
 	
@@ -129,14 +139,6 @@
 	.pa{
 		position: absolute;
 	}
-
-	.ffns{
-		font-family: Noto Serif;
-	}
-
-	.fs150{
-		font-size: 1.5rem
-	}
 	
 	.fs18{
 		font-size: 1.8rem;
@@ -149,7 +151,12 @@
 	}
 	
 	.fw600{
-		font-weight: 600
+		font-weight: 600;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+	
+	.WSb .fw600{
+		font-family: Work Sans
 	}
 
 	.br0125{
@@ -410,6 +417,29 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 	<script>
 		document.getElementById('bg').onload=function(){
 			this.classList.remove('blur');
+		}
+		var htmlClass=document.getElementsByTagName('html')[0].classList;
+		var e=document.createElement("style");
+		e.textContent="@font-face { font-display: swap; }";
+		document.documentElement.appendChild(e);
+		var isFontDisplaySupported=e.sheet.cssRules[0].cssText.indexOf("font-display")!=-1;
+		e.remove();
+		if(isFontDisplaySupported){
+			htmlClass.add('WSr','WSb')
+		}
+		else
+		{
+			var fontfacejs=document.createElement('script');
+			fontfacejs.setAttribute('type','text/javascript');
+			fontfacejs.setAttribute('src','/skripte/fontfaceobserver.js');
+			document.head.appendChild(fontfacejs);
+			fontfacejs.onload=function(){
+				var WSr=new FontFaceObserver('Work Sans',{weight:400,style:'normal'});
+				var WSb=new FontFaceObserver('Work Sans',{weight:600,style:'normal'});
+				
+				WSr.load().then(function(){htmlClass.add('WSr')});
+				WSb.load().then(function(){htmlClass.add('WSb')});
+			}
 		}
 	</script>
 </body>
