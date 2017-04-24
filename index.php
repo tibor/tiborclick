@@ -407,7 +407,9 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 		</div>
 	</div>
 	<script>
-		document.getElementById('bg').onload.classList.remove('blur');
+		document.getElementById('bg').onload=function(){
+			this.classList.remove('blur');
+		}
 	</script>
 </body>
 </html>
