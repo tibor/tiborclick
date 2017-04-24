@@ -227,6 +227,7 @@
 		background-image:url(/photo-1452798991096-382940996d40_rknhtf_c_scale,w_190.jpg);
 		background-size:cover;
 		background-repeat:no-repeat;
+		transition: filter 0.2s ease-in-out
 	}
 	
 	@media (max-width:700px){
