@@ -333,11 +333,11 @@ alt="" id="bg" class="o0">
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Agil</h3>
-				<p>Web-Projekte sollen nicht nur “better done than perfect” sein, sondern auch auch stetig weiterentwickelt werden. Agiles Projektmanagement hilft dabei, die Ressourcen dafür vorausschauend einzusetzen.</p>
+				<p>Web-Projekte sollen nicht nur “better done than perfect” sein, sondern auch auch stetig weiterentwickelt werden. Agiles Projekt&shy;management hilft dabei, die Ressourcen dafür vorausschauend einzusetzen.</p>
 			</div>
 			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Mobil</h3>
-				<p>Der größte Teil der Google-Nutzer sucht inzwischen am Smartphone. Websites sollen daher nicht nur responsive sondern wirklich mobiloptimiert sein – von den Inhalten über die Menüführung bis zur Ladezeit.</p>
+				<p>Der größte Teil der Google-Nutzer sucht inzwischen am Smartphone. Websites sollen daher nicht nur responsive sondern wirklich mobiloptimiert sein – von den <a href="https://www.smashingmagazine.com/2016/02/automatically-art-directed-responsive-images-go/">Inhalten</a> über die<a href="https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8">Menüführung</a> bis zur <a href="https://www.thinkwithgoogle.com/articles/mobile-page-speed-website-load-time.html">Ladezeit</a>.</p>
 			</div>
 			<div class="bgcf bs p10 third-1 br0125 mb05">
 				<h3 class="mb05 fw600">Performant</h3>
