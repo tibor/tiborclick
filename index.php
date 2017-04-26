@@ -484,5 +484,6 @@ Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durch
 			}
 		}
 	</script>
+	<script src="/index.js" async></script>
 </body>
 </html>
