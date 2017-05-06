@@ -124,7 +124,11 @@
 	.oxs{
 		overflow-x: scroll;
 		-webkit-overflow-scrolling: touch;
-		 scroll-snap-points-x: repeat(calc(48rem / 3));
+		-ms-scroll-snap-points-x: repeat(calc(48rem / 3));
+		-webkit-scroll-snap-points-x: repeat(calc(48rem / 3));
+		scroll-snap-points-x: repeat(calc(48rem / 3));
+		-ms-scroll-snap-type: mandatory;
+		-webkit-scroll-snap-type: mandatory;
 		scroll-snap-type: mandatory;
 		margin-bottom: -20px;
 		margin-left: 0.6rem
