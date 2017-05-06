@@ -118,7 +118,8 @@
 		position:relative;
 		overflow-y:hidden;
 		left: -1.2rem;
-		right:-1.2rem
+		right:-1.2rem;
+		margin-bottom:20px
 	}
 	
 	.oxs{
