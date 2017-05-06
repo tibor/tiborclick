@@ -116,7 +116,9 @@
 	
 	.oxs{
 		overflow-x: scroll;
-		-webkit-overflow-scrolling: touch
+		-webkit-overflow-scrolling: touch;
+		 scroll-snap-points-x: repeat(calc(48rem / 3));
+		scroll-snap-type: mandatory;
 	}
 	
 	.mb05{
