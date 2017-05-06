@@ -114,11 +114,19 @@
 		width: 48rem
 	}
 	
+	.oxsc{
+		position:relative;
+		overflow-y:hidden;
+		left: -0.6rem
+	}
+	
 	.oxs{
 		overflow-x: scroll;
 		-webkit-overflow-scrolling: touch;
 		 scroll-snap-points-x: repeat(calc(48rem / 3));
 		scroll-snap-type: mandatory;
+		margin-bottom: -20px;
+		margin-left: 0.6rem
 	}
 	
 	.mb05{
@@ -331,6 +339,7 @@ alt="" id="bg" class="o0">
 	<div class="bgcg pb10 pbt20">
 		<div class="mw mw48">
 			<h2 class="p10 fs18 fw600 mb05"><span class="cf">Prinzipien</span></h2>
+			<div class="oxsc">
 			<div class="oxs">
 		<div class="df jcsb w48">
 			<div class="bgcf bs p10 third-1 br0125 mb05">
@@ -347,6 +356,7 @@ alt="" id="bg" class="o0">
 					Eine Website sollte daher die Daten so sparsam und so gut komprimiert wie möglich einsetzen.</p>
 			</div>
 		</div>
+			</div>
 			</div>
 		</div>
 	</div>
