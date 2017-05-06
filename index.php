@@ -124,14 +124,20 @@
 	.oxs{
 		overflow-x: scroll;
 		-webkit-overflow-scrolling: touch;
-		-ms-scroll-snap-points-x: repeat(calc(48rem / 3));
+		/*-zms-scroll-snap-points-x: repeat(calc(48rem / 3));
 		-webkit-scroll-snap-points-x: repeat(calc(48rem / 3));
-		scroll-snap-points-x: repeat(calc(48rem / 3));
+		scroll-snap-points-x: repeat(calc(48rem / 3));*/
 		-ms-scroll-snap-type: mandatory;
 		-webkit-scroll-snap-type: mandatory;
 		scroll-snap-type: mandatory;
 		margin-bottom: -20px;
 		margin-left: 0.6rem
+	}
+	
+	.ssc{
+		-ms-scroll-snap-coordinate: 0% 0%;
+		-webkit-scroll-snap-coordinate: 0% 0%;
+		scroll-snap-coordinate: 0% 0%;
 	}
 	
 	.mb05{
@@ -352,15 +358,15 @@ alt="" id="bg" class="o0">
 			<div class="oxsc">
 			<div class="oxs">
 		<div class="df jcsb w48">
-			<div class="bgcf bs p10 third-1 br0125 mb05">
+			<div class="bgcf bs p10 third-1 br0125 mb05 ssc">
 				<h3 class="mb05 fw600">Agil</h3>
 				<p>Web-Projekte sollen nicht nur “better done than perfect” sein, sondern auch auch stetig weiterentwickelt werden. Agiles Projekt&shy;management hilft dabei, die Ressourcen dafür vorausschauend einzusetzen.</p>
 			</div>
-			<div class="bgcf bs p10 third-1 br0125 mb05">
+			<div class="bgcf bs p10 third-1 br0125 mb05 ssc">
 				<h3 class="mb05 fw600">Mobil</h3>
 				<p>Der größte Teil der Google-Nutzer sucht inzwischen am Smartphone. Websites sollen daher nicht nur responsive sondern wirklich mobiloptimiert sein – von den <a href="https://www.smashingmagazine.com/2016/02/automatically-art-directed-responsive-images-go/">Inhalten</a> über die<a href="https://medium.com/@kollinz/hamburger-menu-alternatives-for-mobile-navigation-a3a3beb555b8">Menüführung</a> bis zur <a href="https://www.thinkwithgoogle.com/articles/mobile-page-speed-website-load-time.html">Ladezeit</a>.</p>
 			</div>
-			<div class="bgcf bs p10 third-1 br0125 mb05">
+			<div class="bgcf bs p10 third-1 br0125 mb05 ssc">
 				<h3 class="mb05 fw600">Performant</h3>
 				<p>Website-Geschwindigkeit ist im E-Commerce <a href="https://wpostats.com/">der größte technische Optimierungsfaktor</a> und wird durch mobile Nutzer noch wichtiger.<br>
 					Eine Website sollte daher die Daten so sparsam und so gut komprimiert wie möglich einsetzen.</p>
