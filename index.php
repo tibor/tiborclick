@@ -117,7 +117,8 @@
 	.oxsc{
 		position:relative;
 		overflow-y:hidden;
-		left: -0.6rem
+		left: -1.2rem;
+		right:-1.2rem
 	}
 	
 	.oxs{
@@ -305,6 +306,11 @@
 		.pbt24{
 			padding-bottom: 1.2rem;
 			padding-top: 1.2rem
+		}
+		
+		.oxsc{
+			left: -0.6rem;
+			right: -0.6rem
 		}
 	}
 </style>
