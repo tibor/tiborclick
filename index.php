@@ -60,7 +60,7 @@
 	a{
 		color: #18a8d8;
 		text-decoration: none;
-		box-shadow: inset 0px -0.5rem #18a8d850;
+		box-shadow: inset 0px -0.1041em #18a8d850;
 	}
 
 	.df{
@@ -240,9 +240,9 @@
 	
 	.cf{
 		color: #fff;
-		-moz-box-shadow: inset 0 -0.6em hsla(0,0%,100%,0.4);
-		-webkit-box-shadow: inset 0 -0.6em hsla(0,0%,100%,0.4);
-		box-shadow: inset 0 -0.6em hsla(0,0%,100%,0.4);
+		-moz-box-shadow: inset 0 -0.1041em hsla(0,0%,100%,0.4);
+		-webkit-box-shadow: inset 0 -0.1041em hsla(0,0%,100%,0.4);
+		box-shadow: inset 0 -0.1041em hsla(0,0%,100%,0.4);
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
