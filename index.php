@@ -461,8 +461,8 @@ alt="">
 				</div>
 			<div class="third p10">
 				<h3 class="fw600 mb05">myRobotcenter</h3>
-				<p>Als SEO-Spezialist optimiere ich Inhalte und Technik für Online-Shops in 5 Ländern.
-Im Bereich SEA betreue ich AdWords-Konten mit einem monatlichen Budget von durchschnittlich 50.000 Euro.</p>
+				<p>Als SEO-Spezialist optimierte ich zusammen mit der Web-Agentur Inhalte und Technik für Online-Shops in 5 Ländern.
+Im Bereich SEA betreute ich AdWords- und Bing-Ads-Konten mit einem gehobenen Budget.</p>
 			</div>
 		</div>
 		</div>
